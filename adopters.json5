@@ -37,7 +37,7 @@
       label: "Nym — fetch over the Nym mixnet",
       specifier: "0x3aCD9742C68F6d993066Ae25533e09b9e1f60eD0",
       kind: "network",
-      note: "Runs a Nym mixnet client (mix-fetch, compiled to WebAssembly) inside the sandbox, routing fetch and Ethereum RPC over the Nym mixnet. The mixnet tunnel comes up in under ten seconds; per-request latency is higher than a direct fetch, and the first request is the slowest.",
+      note: "Runs a Nym mixnet client (mixFetch, compiled to WebAssembly) inside the sandbox, routing fetch and Ethereum RPC over the Nym mixnet. The mixnet tunnel comes up in ~5-9 seconds; per-request latency is higher than a direct fetch, and the first request is the slowest due to having to perform handshakes through the Mixnet.",
       exampleConfig: {},
     },
   ],
